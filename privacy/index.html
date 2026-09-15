@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personvernerklæring – Lost and Found</title>
+  <style>
+    :root { --bg:#f3efe6; --card:#fffdf8; --text:#1f2a24; --muted:#5c6b63; --accent:#2f5d50; --border:#d9d0c0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Segoe UI", system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.55; }
+    header { background: #2f5d50; color: #fff; padding: 2.5rem 1.25rem 2rem; }
+    header h1 { margin: 0 0 0.35rem; font-size: 1.75rem; }
+    header p { margin: 0; color: #d7ebe4; }
+    main { max-width: 760px; margin: -1.25rem auto 3rem; padding: 0 1rem; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1.5rem 1.35rem; box-shadow: 0 8px 24px rgba(31,42,36,0.06); }
+    h2 { margin-top: 1.75rem; font-size: 1.15rem; }
+    h2:first-of-type { margin-top: 0; }
+    ul { padding-left: 1.2rem; }
+    li { margin: 0.35rem 0; }
+    a { color: var(--accent); }
+    .meta { color: var(--muted); font-size: 0.92rem; }
+    footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 0 1rem 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Personvernerklæring</h1>
+    <p>Lost and Found – personlig app for glemte ting</p>
+  </header>
+  <main>
+    <article class="card">
+      <p class="meta">Sist oppdatert: 15. september 2026 · Versjon 1.1</p>
+      <p><a href="./en.html">English version</a></p>
+
+      <h2>1. Behandlingsansvarlig</h2>
+      <p>Utvikleren bak Lost and Found (Nummis). Kontakt: <a href="mailto:bomberomapp@gmail.com">bomberomapp@gmail.com</a>.</p>
+
+      <h2>2. Hva gjør appen?</h2>
+      <p>Du registrerer ting som er glemt hjemme hos deg: bilde, beskrivelse og telefonnummer til eier. Appen hjelper deg å sende SMS-påminnelser (via telefonens SMS-app, og valgfritt via en SMS-tjeneste på server hvis det er slått på).</p>
+
+      <h2>3. Hvilke data behandler vi?</h2>
+      <ul>
+        <li><strong>Bilder</strong> av gjenstanden — lagres på server og kan deles via lenke i SMS.</li>
+        <li><strong>Telefonnummer</strong> — ofte til en annen person — lagres for påminnelser.</li>
+        <li><strong>Beskrivelse</strong> av funnet.</li>
+        <li><strong>Kontakter:</strong> brukes på enheten for å velge nummer. Vi laster ikke opp hele telefonboken.</li>
+        <li><strong>Varsler:</strong> enhets-token hvis du godtar push.</li>
+        <li><strong>SMS-innhold:</strong> sendes til mottaker; påminnelser inkluderer mulighet til å svare <strong>STOPP</strong>.</li>
+      </ul>
+
+      <h2>4. Formål</h2>
+      <p>Hjelpe deg å få glemt ting returnert gjennom avtalte påminnelser.</p>
+
+      <h2>5. Deling</h2>
+      <p>Vi selger ikke personopplysninger. Mottaker av SMS får tekst og bilde-lenke. Ved server-SMS kan SMS-leverandør (f.eks. Sveve) behandle nummer og meldingstekst. Hostingleverandør behandler tekniske serverdata.</p>
+
+      <h2>6. Lagring og sletting</h2>
+      <ul>
+        <li>Når du markerer funnet som returnert, slettes tilhørende bilde.</li>
+        <li>Når du stopper påminnelser i appen (f.eks. etter at mottaker har svart STOPP i SMS — svaret kommer til <em>din</em> innboks; appen leser ikke innkommende SMS automatisk), oppdateres status.</li>
+        <li>Du kan be om sletting via e-post.</li>
+      </ul>
+
+      <h2>7. Rettigheter</h2>
+      <p>Innsyn, retting og sletting via e-post. Klage: <a href="https://www.datatilsynet.no">datatilsynet.no</a>.</p>
+
+      <h2>8. Ditt ansvar</h2>
+      <p>Du er ansvarlig for at du har rett til å lagre andres telefonnummer og bilde, og til å sende SMS. Appen gir ikke juridisk råd om eiendomsrett til funnet gjenstand.</p>
+    </article>
+  </main>
+  <footer>Lost and Found · personvern</footer>
+</body>
+</html>
